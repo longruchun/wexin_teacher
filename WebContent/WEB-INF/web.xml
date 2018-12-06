@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>weixin</display-name>
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>wxServlet</servlet-name>
+    <servlet-class>com.demoServlet.wxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>wxServlet</servlet-name>
+    <url-pattern>/wx</url-pattern>
+  </servlet-mapping>
+</web-app>

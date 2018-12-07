@@ -25,9 +25,9 @@ public class MenuManager {
 
     public static void main(String[] args) {
         // 第三方用户唯一凭证
-        String appId = "wx8a0415d501621f00";
+        String appId = "wxbc9d0a81278ac184";
         // 第三方用户唯一凭证密钥
-        String appSecret = "3195ae749f13a1ca4cca261a083e4fb5";
+        String appSecret = "85027e2fc20b785979674f5e7506d258";
 
         // 调用接口获取access_token
         AccessToken at = WeixinUtil.getAccessToken(appId, appSecret);
@@ -116,18 +116,18 @@ public class MenuManager {
          */
         
         ComplexButton mainBtn1 = new ComplexButton();
-        mainBtn1.setName("生活助手");
+        mainBtn1.setName("精品文章");
         //一级下有4个子菜单
         mainBtn1.setSub_button(new CommonButton[] { btn11, btn12, btn13, btn14 });
 
         
         ComplexButton mainBtn2 = new ComplexButton();
-        mainBtn2.setName("休闲驿站");
+        mainBtn2.setName("曲谱查询");
         mainBtn2.setSub_button(new CommonButton[] { btn21, btn22, btn23, btn24, btn25 });
 
         
         ComplexButton mainBtn3 = new ComplexButton();
-        mainBtn3.setName("更多体验");
+        mainBtn3.setName("视频赏析");
         mainBtn3.setSub_button(new CommonButton[] { btn31, btn32, btn33 });
 
         
